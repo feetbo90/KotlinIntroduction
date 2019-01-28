@@ -17,20 +17,17 @@ import java.util.Scanner
 fun main(args: Array<String>) {
 
     var bilangan : Int = 10
-    var bilanganInputan : Int?
+    var bilanganInputan : Double?
     var bilangan2 : Int?
     var hasil : Int?
 
     var input = Scanner(System.`in`)
     println("Masukkan bilangan : ")
-    bilanganInputan = input.nextInt()
-    println("Masukkan bilangan kedua : ")
-    bilangan2 = input.nextInt()
+    bilanganInputan = input.nextDouble()
 
-    var pembagian = bilanganInputan.toDouble() / bilangan2.toDouble()
-    hasil = bilanganInputan + bilangan2
-
-    println(" Maka hasil penjumlahannya adalah : $pembagian")
+    var fahrenheit = (bilanganInputan * 9 / 5) + 32
+    println(fahrenheit)
+//    45°C × 9/5) + 32 = 113°F
 
 
 }
