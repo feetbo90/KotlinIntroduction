@@ -36,12 +36,24 @@ fun main(args: Array<String>) {
     // var namaArray = Nama_Inisialisasi(jumlah)
     // var arrayTiga = IntArray(5)
 
-    var arrayTiga = IntArray(5)
     var input = Scanner(System.`in`)
+    var inputan = input.nextInt()
+    var arrayTiga = IntArray(inputan)
 
-    arrayTiga[4] = input.nextInt()
 
-    println("Hasil Input : ${arrayTiga[4]}")
+    //arrayTiga[4] = input.nextInt()
+
+    for(i in 0 until arrayTiga.size)
+    {
+        arrayTiga[i] = input.nextInt()
+    }
+
+    for(i in 0 until arrayTiga.size)
+    {
+        println("ini dari pengulangan : ${arrayTiga[i]}")
+    }
+
+//    println("Hasil Input : ${arrayTiga[4]}")
 
 }
 
