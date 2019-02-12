@@ -29,6 +29,17 @@ fun main(args: Array<String>) {
         println("ini list : ${list.get(i)}")
     }
 
+    var jum = list.get(0)
+
+    for (i in 1 until list.size)
+    {
+        if(list.get(i) > jum )
+        {
+            jum = list.get(i)
+        }
+    }
+    println("nilai terbesar : $jum")
+
 
 
     }
