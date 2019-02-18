@@ -34,7 +34,7 @@ fun main(args: Array<String>) {
     }
 
     // var namaArray = Nama_Inisialisasi(jumlah)
-    // var arrayTiga = IntArray(5)
+    var arrayTiga2 = IntArray(5)
 
     var input = Scanner(System.`in`)
     var inputan = input.nextInt()
