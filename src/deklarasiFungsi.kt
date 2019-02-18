@@ -98,5 +98,19 @@ fun main(args: Array<String>) {
     // code untuk menampilkan data list
     var list2 = mutableListOf<Int>( 2,3,4,5,11,10,12,222,333,3344,444)
     printList(list2)
+
+    var test : Long = 19
+    println(test)
 }
 
+
+// 3  :  12 10 3
+// function .. terserah mau apa aja
+/*
+    tugas 2 : 4
+    100 90  90  100
+    kirim ke fungsi utk list : nilai rata" dia  92.5 ( Double )
+
+    92.5 kita kirim ke fungsi hasil A , B , C, D, E
+
+ */
