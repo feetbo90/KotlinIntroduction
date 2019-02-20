@@ -27,4 +27,8 @@ fun main(args: Array<String>) {
     var bilangan2 : Int
     bilangan2 = input.nextInt()
     println(bilangan2)
+
+    var bilangan3 = 5
+    var hasil = bilangan.toDouble() / bilangan3.toDouble()
+    println(hasil)
 }
