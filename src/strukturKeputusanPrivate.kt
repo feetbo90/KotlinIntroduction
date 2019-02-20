@@ -47,4 +47,11 @@ fun main(args: Array<String>) {
     {
         println("B")
     }
+    var bilangan2 = 800
+    if(bilangan > bilangan2)
+    {
+        println(bilangan)
+    }else {
+        println(bilangan2)
+    }
 }
