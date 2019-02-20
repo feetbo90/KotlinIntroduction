@@ -13,9 +13,18 @@
 
 
  */
+import java.util.Scanner
+
 
 fun main(args: Array<String>) {
 // hallo
+    var bilangan : Int = 12
 
-    println("Hallo kotlin")
+    println("Hallo kotlin $bilangan")
+    print("Hallo kotlin "+ bilangan)
+
+    var input = Scanner(System.`in`)
+    var bilangan2 : Int
+    bilangan2 = input.nextInt()
+    println(bilangan2)
 }
