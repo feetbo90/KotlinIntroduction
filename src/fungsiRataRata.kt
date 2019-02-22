@@ -8,7 +8,7 @@ fun ratarata (list: MutableList<Int>):Double{
     return rata.toDouble() / list.size
 }
 
-fun tampil(list: MutableList<Int>):Unit{
+fun tampil(list: MutableList<Int>){
 
     for (i in 0 until list.size){
         println(list.get(i))

@@ -58,7 +58,7 @@ fun hasilRataRata2(bilangan: Int):String{
     }
 }
 
-// fungsi expression
+// fungsi n
 fun double(x: Int, y: Int) = x * y
 
 fun dikali2(x: Int, y : Int):Int {
