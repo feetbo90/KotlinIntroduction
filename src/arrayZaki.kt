@@ -18,9 +18,10 @@ class ArrayContoh {
         }
     }
 
-    fun jumlahArray(array: IntArray) : Int {
-        val jumlah = 0
-        return jumlah
+    fun faktorial(faktor : Int) : Int {
+        val faktorial = 1
+
+        return faktorial
     }
 }
 
@@ -33,6 +34,6 @@ fun main(args: Array<String>) {
 
     example.tampilArray(array)
 
-    example.jumlahArray(array)
+    example.faktorial(3)
 
 }
