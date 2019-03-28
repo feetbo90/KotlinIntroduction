@@ -20,3 +20,18 @@ fun main(args: Array<String>) {
     println( "maka luas segitiga ${segitiga.hitungLuas(4.0, 5.0)} ")
 
 }
+
+
+/*
+    class Input {
+
+        inputList
+
+    }
+
+    input berapa jumlah dari list
+    4
+
+    100 200 300 400
+
+ */
